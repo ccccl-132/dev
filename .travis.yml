@@ -1,6 +1,7 @@
 language: node_js
 node_js: 
-  -"10"
+  - "10"
+
   script:
-   -echo 'Hello word'
+   - echo 'Hello word'
    - node -v
