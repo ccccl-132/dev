@@ -3,10 +3,26 @@ jobs:
   build:
      docker:
        - image: circleci/node:10
+     branches:
+       only:
+         -  master
      steps:
-       - run:
-           name: show version
-           command: node -v
-       - run:
-           name: hello word from circle
-           command: echo 'hello word'
+       - add_ssh_keys:
+           fingerprints:
+             - "79:a7:6f:99:e7:aa:be:91:2d:1f:4c:10:25:f0:53:11" 
+
+
+       - checkout
+       - restore_cache:
+           keys:
+             - dependencies-
+       -run:
+          name: Install
+          command: yarn install
+       -save_cache:
+          paths:
+            - node_modules
+          key: dependencies-
+       -run:
+          name: Build github pages
+          command: yarn build
