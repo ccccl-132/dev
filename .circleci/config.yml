@@ -18,11 +18,11 @@ jobs:
              - dependencies-
        -run:
           name: Install
-          command: yarn install
+          command: npm install
        -save_cache:
           paths:
             - node_modules
           key: dependencies-
        -run:
           name: Build github pages
-          command: yarn build
+          command: npm build
