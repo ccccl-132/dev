@@ -3,10 +3,10 @@ jobs:
   build:
      docker:
        - image: circleci/node:10
-  steps:
-    - run:
-        name: show version
-        command: node -v
-    - run:
-        name: hello word from circle
-        command: echo 'hello word'
+     steps:
+       - run:
+           name: show version
+           command: node -v
+       - run:
+           name: hello word from circle
+           command: echo 'hello word'
