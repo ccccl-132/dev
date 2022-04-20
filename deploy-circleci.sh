@@ -22,6 +22,6 @@ git commit -m 'deploy'
 
 echo "before push"
 # 如果你想要部署到 https://<USERNAME>.github.io
-git push -f git@github.com:https://ccccl-132.github.io/dev/
+git push -f git@github.com:https://ccccl-132.github.io
 echo "after push"
-cd -
+# cd -
