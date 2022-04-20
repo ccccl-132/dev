@@ -19,7 +19,7 @@ jobs:
     # only master branch will be deployed
     filters:
       branches:
-        only: master
+        only: dev
 
     steps:
       # connect to github by ssh
