@@ -23,7 +23,7 @@ git commit -m 'deploy [ci skip]'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<ccccl-132>/<ccccl-132>.git master:gh-pages
+git push -f git@github.com:<ccccl-132>/<circleci-project-setup>.git master:gh-pages
 
 rm -rf dist
 cd -
