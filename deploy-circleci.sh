@@ -15,7 +15,7 @@ cd dist
 
 git init
 git config --global user.email "xxxx@126.com"
-git config --global user.name "用户名"
+git config --global user.name "ccccl-132"
 git add -A
 git commit -m 'deploy [ci skip]'
 
@@ -23,7 +23,7 @@ git commit -m 'deploy [ci skip]'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<ccccl-132>/<master>.git master:gh-pages
+git push -f git@github.com:<ccccl-132>/<dev>.git master:gh-pages
 
 rm -rf dist
 cd -
