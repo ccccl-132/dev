@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-<div>12343241237777777788889092222999222111</div>
+<div>1234324123777777778888909222299922211133333</div>
 </template>
 
 <script>
