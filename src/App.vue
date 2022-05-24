@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-<div>测试项目</div>
+<div>测试项目1111</div>
 </template>
 
 <script>
